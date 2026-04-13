@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <h2>Thopstech Event Planner</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#newevents">New Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#customer reviews">Customer Reviews</a></li>
+            <li><a href="#company details">Company Details</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+            <li><i class="fa fa-user login"></i></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Event Planner</h1>
+            <p>To get the best of your Event you just need to let us know,And we do the rest...</p>
+        </div>
+    </section>
+     <!-- About us -->
+    <section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>
+                welcome to Thopstech Event planner.We are a team of passionate event planners dedicated to creating memorable experiences. We specialize in weddings, corporate events,celebrations and more with creativity and professionalism.
+            </p>
+        </section>
+    </section>
+    <!-- new events -->
+    <section id="newevents" class="hero_2">
+        <video autoplay muted loop playsinline class="bg-video">
+        <source src="https://cdn.pixabay.com/video/2023/09/25/182287-868067162_large.mp4"></video>
+        <h1>Plan Your Perfect Event</h1>
+        <p>We organize unforgettable events with creativity & passion</p>
+        <div class="search-box">
+            <input type="text" placeholder="Search events...">
+            <button>Search</button>
+        </div>
+
+        <h3 class="newevents"></h3>
+        <div class="events-container">
+            <div class="image1">
+                <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="event-info">
+                    <h2>DJ</h2>
+                    <h4>Sat , Sun <span>| from $500 </span></h4>
+                </div>
+            </div>
+            <div class="image2">
+                <img src="https://media.istockphoto.com/id/1364827675/photo/huge-multi-sports-collage-taekwondo-tennis-soccer-basketball-etc.webp?a=1&b=1&s=612x612&w=0&k=20&c=4nz6nUiZkkUF923d0b2mDkzWRhdSu8hHOXuCVZafrNw=" alt="">
+                <div class="event-info">
+                    <h2>Sports</h2>
+                    <h4> Friday <span>| from $100 </span></h4>
+                </div>
+            </div>
+            <div class="image3">
+                <img src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="event-info">
+                    <h2>Travels</h2>
+                    <h4>Fri-sat <span>| from $500 </span></h4>
+                </div>
+            </div>
+            <div class="image4">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="event-info">
+                    <h2>Mountains</h2>
+                    <h4>Mon-Fri <span> | from $1000 </span></h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="moreContent" class="hidden">
+        </div>
+    </section>
+    <section class="categories">
+        <h1>Explore by <span>categories</span></h1>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <i class="fa-solid fa-music"></i>
+                <p>Music</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-running"></i>
+                <p>Sport</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-brands fa-avianex"></i>
+                <p>Travels</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-palette"></i>
+                <p>Exhibition</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>Business</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-camera"></i>
+                <p>Photography</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <h3>Gallery</h3>
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/04/c4/20/04c420a02a1e4e638dbaeffd5e4548dd.jpg">
+                <div class="overlay">
+                    <h3>DJ</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/1200x/94/ac/fd/94acfd51b2d25967e34c8ba4fe098fca.jpg">
+                <div class="overlay">
+                    <h3>CORPORATE</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/1e/a7/7c/1ea77c3d17332baa7cc206c3c7bf4387.jpg">
+                <div class="overlay">
+                    <h3>WEDDING</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/7b/2d/44/7b2d445a14ebbbf1ec9a23c8aab97fc6.jpg">
+                <div class="overlay">
+                    <h3>ENTERTAINMENT</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/56/16/de/5616de9501185d5ffde0577288fc1ce7.jpg" alt="">
+                <div class="overlay">
+                    <h3>EDUCATIONAL</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/736x/c4/dc/29/c4dc29305b1b4da5a4176950730b9719.jpg" alt="">
+                <div class="overlay">
+                    <h3>SPORTS</h3>
+                </div>
+            </div>
+    </section>
+    <!-- customer review -->
+    <section id="customer reviews" class="reviews-section">
+            <div class="section-header">
+                <h2>Customer Reviews</h2>
+                <p>
+                    See what our happy clients say about our event management services.
+                    We create memorable weddings, birthdays, corporate events, and special celebrations with perfection.
+                </p>
+            </div>
+
+            <div class="rating-summary">
+                <div class="rating-box">
+                        <h3>4.9/5</h3>
+                        <div class="stars">★★★★★</div>
+                        <p>Based on 120+ client reviews</p>
+                </div>
+                <div class="summary-text">
+                    <p><strong>Trusted by customers</strong> for professional planning, elegant decoration, and smooth event execution.</p>
+                </div>
+            </div>
+
+            <div class="reviews-container" id="reviewsContainer">
+                    <div class="review-card">
+                        <div class="review-top">
+                            <div class="avatar">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Anjali">
+                                <div class="avatar-fallback">A</div>
+                            </div>
+                            <div class="review-info">
+                                <h4>Anjali</h4>
+                                <span>Wedding Event</span>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">
+                        The team handled our wedding beautifully. Decoration, coordination, and guest management were absolutely perfect.
+                        </p>
+                    </div>
+
+                <div class="review-card">
+                    <div class="review-top">
+                        <div class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul">
+                            <div class="avatar-fallback">R</div>
+                        </div>
+                        <div class="review-info">
+                            <h4>Rahul</h4>
+                            <span>Birthday Celebration</span>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">
+                    Amazing service and very professional staff. Our birthday event looked stunning and everything was managed on time.
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-top">
+                        <div class="avatar">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sneha">
+                            <div class="avatar-fallback">S</div>
+                        </div>
+                        <div class="review-info">
+                            <h4>Sneha</h4>
+                            <span>Corporate Event</span>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★☆</div>
+                            <p class="review-text">
+                                Very organized and creative team. They made our corporate event successful and stress-free.
+                            </p>
+                </div>
+            </div>
+    </section>
+    <!-- company details -->
+    <section id="company details" class="company-section">
+        <div class="container">
+            <div class="company-image">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Company Image">
+            </div>
+            <div class="company-details">
+                <h2>Company Details</h2>
+                <p><span class="label">Name:</span> Thopstech Event Management</p>
+                <p><span class="label">Address:</span> Bangalore, India</p>
+                <p><span class="label">Email:</span> thopstechevent@gmail.com</p>
+                <p><span class="label">Phone:</span> +91 9876543210</p>
+                <p><span class="label">Description:</span> We specialize in event planning, decoration, and catering services to make your moments unforgettable.</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact us -->
+    <section id="contact us" class="contact">
+        <h2>Contact Us</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>@ 2026 Thopstech Event Management</p>
+    </footer>  
+</body>
+</html>
